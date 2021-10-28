@@ -1,0 +1,16 @@
+.carousel{
+    width: 100%;
+    padding-bottom: 24px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.carousel .card{
+    min-width: 250px;
+    margin-right: 12px;
+}
+
+.carousel .card:last-child{
+    margin-right: 0;
+}
